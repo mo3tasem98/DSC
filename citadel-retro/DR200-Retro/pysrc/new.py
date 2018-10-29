@@ -40,10 +40,10 @@ dr200_test = dr200_test.drop(nancols, axis = 1)
 timies = [tns for tns in list(dr200_test.columns) if ('t(s)' in tns) or ('Time' in tns)]
 
 #print filename, percent of violator rows
-print (file, dr200_test.shape,
-	(dr200_test[timies].diff(periods=-1) > 0).astype('int').sum(axis=0).max(),
-	':',
-	dr200_test.shape[0])
+#print (file, dr200_test.shape,
+#	(dr200_test[timies].diff(periods=-1) > 0).astype('int').sum(axis=0).max(),
+#	':',
+#	dr200_test.shape[0])
     
 while (dr200_test[timies].diff(periods=-1) > 0).astype('int').sum(axis=0).max() != 0:
 	de = dr200_test[timies].diff(periods=-1)

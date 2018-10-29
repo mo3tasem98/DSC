@@ -23,6 +23,13 @@
 			<Item Name="log 130225 200346.vcl" Type="Document" URL="../logfiles/log 130225 200346.vcl"/>
 			<Item Name="log 151215 121454.vcl" Type="Document" URL="../logfiles/log 151215 121454.vcl"/>
 		</Item>
+		<Item Name="pysrc" Type="Folder">
+			<Item Name="__pycache__" Type="Folder">
+				<Item Name="new.cpython-36.pyc" Type="Document" URL="../pysrc/__pycache__/new.cpython-36.pyc"/>
+			</Item>
+			<Item Name="glean.py" Type="Document" URL="../pysrc/glean.py"/>
+			<Item Name="new.py" Type="Document" URL="../pysrc/new.py"/>
+		</Item>
 		<Item Name="VCL_2_DSC.lvclass" Type="LVClass" URL="../lvsrc/VCL_2_DSC.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
